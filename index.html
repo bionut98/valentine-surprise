@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>For My Wonderful Wife</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A little Valentine surprise, made just for you."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hearts-background" aria-hidden="true"></div>
+
+    <div class="intro-overlay" id="introOverlay">
+      <div class="intro-card">
+        <p class="intro-label">A small Valentine surprise for</p>
+        <h1 class="intro-title">My beautiful wife adelina</h1>
+        <p class="intro-subtitle">
+          Put your headphones on, take a deep breath, and click below.
+        </p>
+        <button class="primary-button" id="openSurpriseBtn">
+          Open your surprise
+        </button>
+        <p class="intro-note">
+          (Made with a lot of love and a tiny bit of code.)
+        </p>
+      </div>
+    </div>
+
+    <header class="hero" id="top">
+      <nav class="nav">
+        <div class="nav-left">
+          <span class="nav-logo">For Us</span>
+        </div>
+        <div class="nav-right">
+          <a href="#story">Our story</a>
+          <a href="#reasons">Reasons I love you</a>
+          <a href="#gallery">Memories</a>
+          <a href="#music">Music</a>
+          <a href="#note">A little note</a>
+        </div>
+      </nav>
+
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="hero-kicker">To my wife</p>
+          <h1 class="hero-title">
+            You are my favorite <span class="hero-heart">❤️</span>
+            <span class="hero-script">forever</span>.
+          </h1>
+          <p class="hero-body">
+            This little page is just a tiny reflection of how big my love is
+            for you. Thank you for every laugh, every hug, and every ordinary
+            moment that you turn into something magical.
+          </p>
+          <button class="secondary-button" id="scrollToStoryBtn">
+            Start our story
+          </button>
+        </div>
+        <div class="hero-photo">
+          <div class="photo-frame">
+            <img
+              src="IMG-20251029-WA0025.jpg"
+              alt="A beautiful memory of us together"
+            />
+            <span class="photo-caption">You and me, together ❤️</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="story">
+        <div class="section-header">
+          <p class="section-kicker">Our little timeline</p>
+          <h2>Some chapters of our story</h2>
+          <p class="section-body">
+            I could write a whole book about us, but here are just a few pages
+            I never want to forget. (You can ask me for the extended version
+            anytime.)
+          </p>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-card">
+            <h3 class="timeline-title">The first time I saw you</h3>
+            <p class="timeline-meta">The day everything quietly changed.</p>
+            <p class="timeline-body">
+              I still remember the exact way you smiled, and how the room felt a
+              little different after that. I don't think I realized it yet, but
+              that was the moment my heart picked you.
+            </p>
+          </article>
+
+          <article class="timeline-card">
+            <h3 class="timeline-title">When &ldquo;you&rdquo; became &ldquo;us&rdquo;</h3>
+            <p class="timeline-meta">My favorite upgrade of all time.</p>
+            <p class="timeline-body">
+              Somewhere between our conversations, our jokes, and the quiet
+              moments, something amazing happened: we became &ldquo;us&rdquo;.
+              And suddenly the future felt a lot more like home.
+            </p>
+          </article>
+
+          <article class="timeline-card">
+            <h3 class="timeline-title">All the little everyday things</h3>
+            <p class="timeline-meta">My favorite part of loving you.</p>
+            <p class="timeline-body">
+              It's the coffee, the shared looks, the silly comments, the
+              half-finished series, the way you say my name. These moments are
+              my real love story with you.
+            </p>
+          </article>
+
+          <article class="timeline-card">
+            <h3 class="timeline-title">Right now</h3>
+            <p class="timeline-meta">You, reading this.</p>
+            <p class="timeline-body">
+              Right now, as you read this, I just want you to know: I would
+              choose you again and again. On loud days, quiet days, hard days,
+              perfect days &mdash; every single one of them is better with you.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-alt" id="reasons">
+        <div class="section-header">
+          <p class="section-kicker">A very short list</p>
+          <h2>10 little reasons I love you</h2>
+          <p class="section-body">
+            Click on any heart to reveal a reason. (Warning: this list is highly
+            incomplete &mdash; I&rsquo;ll keep adding to it for the rest of my
+            life.)
+          </p>
+        </div>
+
+        <div class="reasons-grid" id="reasonsGrid">
+          <button class="reason-card" data-reason="The way you laugh makes everything feel lighter.">
+            <span class="reason-icon">♡</span>
+            <span class="reason-text">Tap to reveal</span>
+          </button>
+          <button class="reason-card" data-reason="You are endlessly kind, even on the days you’re tired.">
+            <span class="reason-icon">♡</span>
+            <span class="reason-text">Tap to reveal</span>
+          </button>
+          <button class="reason-card" data-reason="You make every place we are together feel like home.">
+            <span class="reason-icon">♡</span>
+            <span class="reason-text">Tap to reveal</span>
+          </button>
+          <button class="reason-card" data-reason="You believe in me, even when I doubt myself.">
+            <span class="reason-icon">♡</span>
+            <span class="reason-text">Tap to reveal</span>
+          </button>
+          <button class="reason-card" data-reason="Your hugs fix things that words never could.">
+            <span class="reason-icon">♡</span>
+            <span class="reason-text">Tap to reveal</span>
+          </button>
+          <button class="reason-card" data-reason="You’re smart, funny, and incredibly beautiful — all at once.">
+            <span class="reason-icon">♡</span>
+            <span class="reason-text">Tap to reveal</span>
+          </button>
+          <button class="reason-card" data-reason="You care so deeply about the people you love.">
+            <span class="reason-icon">♡</span>
+            <span class="reason-text">Tap to reveal</span>
+          </button>
+          <button class="reason-card" data-reason="You turn ordinary days into memories I never want to forget.">
+            <span class="reason-icon">♡</span>
+            <span class="reason-text">Tap to reveal</span>
+          </button>
+          <button class="reason-card" data-reason="You are my calm, my chaos, and my favorite adventure.">
+            <span class="reason-icon">♡</span>
+            <span class="reason-text">Tap to reveal</span>
+          </button>
+          <button class="reason-card" data-reason="Simply put: you are you — and that’s my favorite thing in the world.">
+            <span class="reason-icon">♡</span>
+            <span class="reason-text">Tap to reveal</span>
+          </button>
+        </div>
+      </section>
+
+      <section class="section" id="gallery">
+        <div class="section-header">
+          <p class="section-kicker">Photo memories</p>
+          <h2>A tiny gallery for us</h2>
+          <p class="section-body">
+            Some of our favorite moments together &mdash; the smiles, the travels, the quiet
+            mornings, and every little adventure we share.
+          </p>
+        </div>
+
+        <div class="gallery">
+          <button
+            class="gallery-arrow"
+            id="prevPhotoBtn"
+            aria-label="Previous photo"
+          >
+            ‹
+          </button>
+
+          <div class="gallery-frame">
+                                    <div class="gallery-inner" id="galleryInner">
+              <figure class="gallery-item is-active">
+                <img
+                  src="IMG-20251029-WA0025.jpg"
+                  alt="A beautiful memory of us"
+                />
+                <figcaption>"Us, together — a moment I'll treasure forever."</figcaption>
+              </figure>
+              <figure class="gallery-item">
+                <img
+                  src="IMG-20251029-WA0023.jpg"
+                  alt="Another beautiful memory"
+                />
+                <figcaption>"Another beautiful memory of us."</figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <button
+            class="gallery-arrow"
+            id="nextPhotoBtn"
+            aria-label="Next photo"
+          >
+            ›
+          </button>
+        </div>
+      </section>
+
+      <section class="section" id="music">
+        <div class="section-header">
+          <p class="section-kicker">A song for you</p>
+          <h2>Music that reminds me of us</h2>
+          <p class="section-body">
+            This song makes me think of you. Press play whenever you want to hear it.
+          </p>
+        </div>
+        <div class="music-player">
+          <div class="music-frame">
+            <iframe
+              id="youtubePlayer"
+              width="100%"
+              height="400"
+              src="https://www.youtube.com/embed/kPa7bsKwL-c?rel=0&modestbranding=1&playsinline=1"
+              title="A song for you"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      
+      <section class="section section-alt" id="pdfGallery">
+        <div class="section-header">
+          <p class="section-kicker">More memories</p>
+          <h2>Our photo collection</h2>
+          <p class="section-body">
+            More beautiful moments from our journey together.
+          </p>
+        </div>
+
+        <div class="photo-grid" id="photoGrid">
+          <div class="photo-thumbnail" data-index="0">
+            <img
+              src="galery/1000042076_page-0001.jpg"
+              alt="A special memory"
+            />
+          </div>
+          <div class="photo-thumbnail" data-index="1">
+            <img
+              src="galery/1000042076_page-0002.jpg"
+              alt="A special memory"
+            />
+          </div>
+          <div class="photo-thumbnail" data-index="2">
+            <img
+              src="galery/1000042076_page-0003.jpg"
+              alt="A special memory"
+            />
+          </div>
+          <div class="photo-thumbnail" data-index="3">
+            <img
+              src="galery/1000042076_page-0004.jpg"
+              alt="A special memory"
+            />
+          </div>
+          <div class="photo-thumbnail" data-index="4">
+            <img
+              src="galery/1000042076_page-0005.jpg"
+              alt="A special memory"
+            />
+          </div>
+          <div class="photo-thumbnail" data-index="5">
+            <img
+              src="galery/1000042076_page-0006.jpg"
+              alt="A special memory"
+            />
+          </div>
+          <div class="photo-thumbnail" data-index="6">
+            <img
+              src="galery/1000042076_page-0007.jpg"
+              alt="A special memory"
+            />
+          </div>
+          <div class="photo-thumbnail" data-index="7">
+            <img
+              src="galery/1000042076_page-0008.jpg"
+              alt="A special memory"
+            />
+          </div>
+          <div class="photo-thumbnail" data-index="8">
+            <img
+              src="galery/1000042076_page-0009.jpg"
+              alt="A special memory"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Lightbox Modal -->
+      <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button>
+        <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" aria-label="Previous">‹</button>
+        <button class="lightbox-arrow lightbox-next" id="lightboxNext" aria-label="Next">›</button>
+        <div class="lightbox-content">
+          <img id="lightboxImage" src="" alt="Enlarged photo" />
+        </div>
+      </div>
+      </section>
+<section class="section" id="note">
+        <div class="note-card">
+          <p class="section-kicker">A little letter</p>
+          <h2>To my wife, from the person who adores you</h2>
+          <p>
+            If I could, I would write you a new love letter every single day.
+            Some days it would be long and poetic, other days it would just say:
+            &ldquo;I&rsquo;m so glad it&rsquo;s you.&rdquo;
+          </p>
+          <p>
+            I know life can be loud, busy, and messy. But in the middle of all
+            of that, there is you &mdash; my constant, my safe place, my
+            favorite person to come home to. Thank you for loving me the way you
+            do, for being yourself, and for letting me share this life with you.
+          </p>
+          <p>
+            This page is simple, but the feeling behind it isn&rsquo;t: I am so
+            deeply, completely in love with you. Today, tomorrow, and every
+            ordinary Tuesday in between.
+          </p>
+          <p class="note-signature">
+            Always yours,<br />
+            <span class="note-signature-name">Your husband</span>
+          </p>
+
+          <div class="note-actions">
+            <button class="primary-button" id="hugButton">
+              Send me a virtual hug
+            </button>
+            <button class="ghost-button" id="backToTopBtn">
+              Back to the top
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>
+        Made with a ridiculous amount of love
+        <span aria-hidden="true">❤️</span>
+        just for you.
+      </p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">
+      Hug received. Returning one immediately. 🤍
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
